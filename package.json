@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-cross-browser-compatibility-check",
+  "version": "0.0.0",
+  "description": "Check JS for cross-browser problems.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Jonathan Garbee",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai": "3.2.0",
+    "mocha": "2.3.2",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~1.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}

@@ -7,7 +7,7 @@
 'use strict';
 
 var rule = require('../../../lib/rules/no-innerText'),
-    RuleTester = require('../../../node_modules/eslint/lib/testers/rule-tester');
+    RuleTester =  require('eslint').RuleTester;
 
 var ruleTester = new RuleTester();
 ruleTester.run('no-innerText', rule, {
@@ -17,7 +17,9 @@ ruleTester.run('no-innerText', rule, {
     invalid: [
         {
             code: 'foo.innerText = "hello"',
-            errors: [{ message: 'innerText does not work in Firefox. Use textContent instead.', type: 'ExpressionStatement'}]
+            errors: [{
+                message: 'innerText does not work in Firefox. Use textContent instead.',
+                type: 'ExpressionStatement'}]
         }
     ]
 });

@@ -10,10 +10,10 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-cross-browser-compatibility-check`:
+Next, install `eslint-plugin-cross-browser-compatibility-check`:
 
 ```
-$ npm install eslint-cross-browser-compatibility-check --save-dev
+$ npm install eslint-plugin-cross-browser-compatibility-check --save-dev
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-eslint-cross-browser-compatibility-check` globally.

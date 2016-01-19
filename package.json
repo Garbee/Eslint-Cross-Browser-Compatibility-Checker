@@ -1,5 +1,5 @@
 {
-  "name": "eslint-cross-browser-compatibility-check",
+  "name": "eslint-plugin-cross-browser-compatibility-check",
   "version": "0.0.0",
   "description": "Check JS for cross-browser problems.",
   "keywords": [
